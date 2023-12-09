@@ -6,7 +6,7 @@ PASS='smart444_tigerkingvpn';
 DBNAME='smart444_tigerkingvpn';
 PORT_TCP='5666';
 PORT_UDP='5666';
-SUB_DOMAIN=omc2.tigerkingvpn.com
+SUB_DOMAIN=dd1l.tigerkingvpn.com
 MYIP=$(wget -qO- icanhazip.com);
 server_ip=$(curl -s https://api.ipify.org)
 timedatectl set-timezone Asia/Riyadh
